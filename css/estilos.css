@@ -1,0 +1,348 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+h1{
+    color: white;
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 14px; 
+    color: silver;
+    font-weight: 300;
+}
+input, textarea, .btn {
+    border-radius: 15px !important;
+}
+textarea{
+    height: 150px;
+}
+nav .nav-link{
+    color: silver;
+}
+
+.fa-bars{
+    color: white;
+}
+nav .active{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#inicio .div-cohete{
+    height: 410px;
+}
+/*#inicio .cohete{
+    height: 400px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}*/
+#inicio .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 2px 2px;
+}
+
+#inicio{
+    background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sobre-mi{
+    background-image: url(../images/polina-kuzovkova-zd8v_Ig3ndg-unsplash.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+#experiencia p{
+    color: black
+}
+.fa-briefcase{
+    width: 50px;
+    color: white;
+}
+#experiencia h2{
+    color: white;
+}
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: black;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#experiencia h2, #experiencia h4 {
+   color: white;
+}
+#experiencia h2, #formacion h2 {
+    font-weight: 400;
+    font-size: 24px
+}
+
+#formacion{
+    margin-bottom: 20px;
+}
+#formacion h2, #formacion h4{
+    color: white;
+}
+#experiencia h3, #formacion h3{
+    color: silver;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+#experiencia h4, #formacion h4{
+    font-size: 17px;
+    
+}
+#experiencia h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#proyectos{
+    background-image: url(../images/sho-k-Bb7zW1W5cNg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#proyectos .card {
+    max-height: 400px;
+    max-width: 450px;
+}
+#proyectos .card p{
+    color: gray;
+    font-size: 16px;
+}
+#proyectos .card a{
+    color: black;
+    font-weight: 700;
+}
+
+#proyectos .card a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#proyectos h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#proyectos p{
+    font-size: 14px;
+}
+#proyectos img{
+    height: 200px;
+    margin: 0 25px;
+}
+#inicio {
+    background-color: black;
+    background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#contacto{
+    background-image: url(../images/shkar-allan-4ttBglidZOk-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#proyectos {
+    background-image: url(../images/sho-k-Bb7zW1W5cNg-unsplash.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#proyectos img {
+    
+    margin: 0;
+}
+
+#proyecto col {
+    background-color: black;
+}
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.baw {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+}
+.baw:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter:grayscale(0%);
+}
+.color-gradiente{
+    background: rgb(1,1,1);
+background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(105,105,110,1) 50%, rgba(12,13,13,1) 100%);
+    
+
+}
+.btn {
+    color: silver;
+    background-color: white;
+    border: none;
+}
+.btn-rojo{
+    background-color: gray;
+    color: white;
+    font-weight: 300;
+    border-radius: 15px;
+}
+.link-rojo a{
+   color: #E20000;
+   text-decoration: none;
+}
+.btn:hover{
+    color: black;
+    background-color:silver;
+}
+
+
+footer, footer a{
+    color: white;
+    font-weight: 300;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: rgb(88, 16, 76);
+    
+}
+footer .fa-linkedin-in{
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.whatsapp{
+    background-color: white;
+    width: 60px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right:80px;
+    position: fixed;
+    bottom: 0px;
+}
+.whatsapp a{
+    color:green;
+}    
+@media (max-width: 750px) {/* Para mobile */
+    #inicio, #contacto {
+        background-color: black;
+        background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+        
+    }
+    #inicio .div-cohete{
+        height: 210px;
+    }
+   
+    #inicio .input-home p {
+        color: silver;
+        border: 2px solid white;
+        
+    }
+
+    
+    #contacto {
+        background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+    }
+    
+    .whatsapp{
+        background-color: white;
+        width: 60px;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ;
+        font-size: 30px;
+        text-align: center;
+        padding: 8px 0 15px 0;
+        right:80px;
+        position: fixed;
+        bottom: 0px;
+    }
+    .whatsapp a{
+        color:green;
+    } 
+} 
+
+@media (max-width: 499px) {/* Para mobile */
+    #inicio, #contacto {
+        background-color: black;
+        background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+        
+    }
+    #inicio .div-cohete{
+        height: 210px;
+    }
+    #inicio .input-home{
+        width: 350px;
+        
+        
+        
+    }
+    #inicio .input-home p {
+        color: silver;
+        border: 2px solid white;
+        
+    }
+
+    
+    
+}
